@@ -1,4 +1,4 @@
-# Maintainer: Everton Cosmo <everton8cosmo@gmail.com>
+# Maintainer: Everton Cosmo <everton8cosmo at gmail dot com>
 pkgname=4kvideodownloader
 pkgver=4.8.0
 pkgrel=1
@@ -35,7 +35,7 @@ package(){
 	# remove insecure RPATH
  	patchelf --remove-rpath "$pkgdir"/usr/lib/4kvideodownloader/${pkgname}-bin
 	
-	# remove src,pkg folders  and .de
+	# remove src,pkg folders 
 	rm -r "$srcdir"
 	
 
