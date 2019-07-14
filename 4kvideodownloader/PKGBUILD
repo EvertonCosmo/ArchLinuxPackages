@@ -35,8 +35,7 @@ package(){
 	# remove insecure RPATH
  	patchelf --remove-rpath "$pkgdir"/usr/lib/4kvideodownloader/${pkgname}-bin
 	
-	# remove src,pkg folders 
-	rm -r "$srcdir"
+	
 	
 
 }
