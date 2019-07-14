@@ -1,4 +1,4 @@
-pkgbase = 4kvideodownloader
+pkgbase = 4kvideodownloader-bin
 	pkgdesc = Download online video. 4K Video Downloader allows to download video and audio content from YouTube and other services in the high quality as fast as possible and to save this video on your computer.
 	pkgver = 4.8.0
 	pkgrel = 1
