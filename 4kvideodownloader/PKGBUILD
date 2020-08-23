@@ -1,8 +1,8 @@
 # Maintainer: Everton Cosmo <everton8cosmo at gmail dot com>
 pkgname=4kvideodownloader-bin
 _pkgname=4kvideodownloader
-pkgver=4.12.5.3670
-_pkgver=4.12.5
+pkgver=4.13.0.3800
+_pkgver=4.13.0
 pkgrel=1
 pkgdesc="Download online video. 4K Video Downloader allows to download video and audio content from YouTube and other services."
 arch=('x86_64')
@@ -44,3 +44,4 @@ package(){
 
 
 
+md5sums=('127ee91664f2192aed26e2b1433cd1b6')
