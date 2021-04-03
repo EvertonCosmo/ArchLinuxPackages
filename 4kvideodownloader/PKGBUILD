@@ -1,8 +1,8 @@
 # Maintainer: Everton Cosmo <everton8cosmo at gmail dot com>
 pkgname=4kvideodownloader-bin
 _pkgname=4kvideodownloader
-pkgver=4.13.4.3930
-_pkgver=4.13.4
+pkgver=4.15.1.4190
+_pkgver=4.15.1
 pkgrel=1
 pkgdesc="Download online video. 4K Video Downloader allows to download video and audio content from YouTube and other services."
 arch=('x86_64')
@@ -13,7 +13,8 @@ makedepends=('patchelf')
 options=('!strip' '!emptydirs')
 install=${_pkgname}.install
 source=("${_pkgname}_${pkgver}_amd64.deb"::"https://dl.4kdownload.com/app/${_pkgname}_${_pkgver}-${pkgrel}_amd64.deb")
-md5sums=('8e49250bd6e39045c2f4e7ae29f7700f')
+md5sums=('0eb044b8d2a0015aef0c70630d1fb5a1')
+
 
 
 package(){
@@ -26,7 +27,7 @@ package(){
  	patchelf --remove-rpath "$pkgdir"/usr/lib/4kvideodownloader/${_pkgname}-bin
 
 	# shared license
-	install -Dm 755 "$pkgdir"/usr/lib/4kvideodownloader/translation/license_zh_TW.qm\
+	install -Dm 755 "$pkgdir"/usr/lib/4kvideodownloader/translation/License_zh_TW.qm\
 					"$pkgdir"/usr/share/licenses/${_pkgname}/LICENSE
 
 	install -Dm 755 "$pkgdir"/usr/share/doc/4kvideodownloader/copyright\
@@ -35,8 +36,7 @@ package(){
 	install -Dm 644 "$pkgdir"/usr/share/doc/4kvideodownloader/eula\
 					"$pkgdir"/usr/share/licenses/${_pkgname}/EULA
 
-
-
 }
 
 
+md5sums=('0eb044b8d2a0015aef0c70630d1fb5a1')

@@ -1,5 +1,6 @@
 post_install() {
 	xdg-icon-resource forceupdate --theme hicolor &> /dev/null
+	rm /usr/bin/4kvideodownloader
 	ln -s /usr/lib/4kvideodownloader/4kvideodownloader.sh /usr/bin/4kvideodownloader
 
 	update-desktop-database -q
