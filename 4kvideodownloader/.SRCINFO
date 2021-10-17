@@ -1,6 +1,6 @@
 pkgbase = 4kvideodownloader-bin
 	pkgdesc = Download online video. 4K Video Downloader allows to download video and audio content from YouTube and other services.
-	pkgver = 4.18.0.4480
+	pkgver = 4.18.1.4500
 	pkgrel = 1
 	url = http://www.4kdownload.com/products/product-videodownloader
 	install = 4kvideodownloader.install
@@ -14,7 +14,7 @@ pkgbase = 4kvideodownloader-bin
 	depends = qt5-declarative
 	options = !strip
 	options = !emptydirs
-	source = 4kvideodownloader_4.18.0.4480_amd64.deb::https://dl.4kdownload.com/app/4kvideodownloader_4.18.0-1_amd64.deb
-	sha256sums = c17abcf7306510591bb2efb74dc18fb230d3fdf0801bb4c3fb936c4208284bf6
+	source = 4kvideodownloader_4.18.1.4500_amd64.deb::https://dl.4kdownload.com/app/4kvideodownloader_4.18.1-1_amd64.deb
+	sha256sums = e2f8a61c366c5031ac8e009ccf58c6ffe31f21037a5b782fc553e0faf1c02f1d
 
 pkgname = 4kvideodownloader-bin
