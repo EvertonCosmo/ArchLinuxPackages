@@ -1,8 +1,8 @@
 # Maintainer: Everton Cosmo <everton8cosmo at gmail dot com>
 pkgname=4kvideodownloader-bin
 _pkgname=4kvideodownloader
-pkgver=4.18.1.4500
-_pkgver=4.18.1
+pkgver=4.19.4.4720
+_pkgver=4.19.4
 pkgrel=1
 pkgdesc="Download online video. 4K Video Downloader allows to download video and audio content from YouTube and other services."
 arch=('x86_64')
@@ -13,7 +13,7 @@ makedepends=('patchelf')
 options=('!strip' '!emptydirs')
 install=${_pkgname}.install
 source=("${_pkgname}_${pkgver}_amd64.deb"::"https://dl.4kdownload.com/app/${_pkgname}_${_pkgver}-${pkgrel}_amd64.deb")
-sha256sums=('e2f8a61c366c5031ac8e009ccf58c6ffe31f21037a5b782fc553e0faf1c02f1d')
+sha256sums=('50d9d7b12f55d08c734abfb8e285a0e13d8aaa790d7b049d2a9d236bec63bc43')
 
 package(){
 
@@ -35,6 +35,7 @@ package(){
 					"$pkgdir"/usr/share/licenses/${_pkgname}/EULA
 
 }
+
 
 
 
